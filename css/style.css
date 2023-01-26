@@ -8,11 +8,13 @@ body{
 }
 
 button{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 4%;
     cursor: pointer;
-}
-
-header{
-    background-color: #e7e9fc;
 }
 
 h1{
@@ -21,7 +23,7 @@ h1{
     font-weight: 700;
     font-size: 56px;
     line-height: 60px;
-    color: #ffffff;
+    letter-spacing: 2%;
 }
 
 h2{
@@ -30,6 +32,7 @@ h2{
     font-weight: 700;
     font-size: 36px;
     line-height: 40px;
+    letter-spacing: 2%;
     color: #2E2F42;
 }
 
@@ -39,6 +42,7 @@ h3{
     font-weight: 500;
     font-size: 20px;
     line-height: 24px;
+    letter-spacing: 2%;
     color: #2E2F42;
 }
 
@@ -46,16 +50,23 @@ ul{
     list-style: none;
 }
 
+
 a{
     text-decoration: none;
 }
 
-.nav{
-    color: #2e2f42;
+.img{
+    width: 360px;
+    height: 300px;
 }
 
-.address{
-    color: #434455;
+.photo{
+    width: 264px;
+    height: 260px;
+}
+
+.header{
+    background-color: #e7e9fc;
 }
 
 .logo{
@@ -64,7 +75,6 @@ a{
     font-weight: 800;
     font-size: 18px;
     line-height: 24px;
-    color: none;
 }
 
 .web{
@@ -75,20 +85,47 @@ a{
     color: #2E2F42;
 }
 
-.footer-studio{
-    color: #f4f4fd;
+.nav{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #2e2f42;
 }
 
-.first{
-    background-color: #2E2F42;
+.nav:active{
+    color: #404BBF;
+    text-decoration: underline;
 }
 
-.order{
+.address{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #434455;
+}
+
+.address:active{
+    color: #404BBF;
+}
+
+.hero{
+    background: rgba(46, 47, 66, 0.7);
+}
+
+.hero-title{
+    color: #FFFFFF;
+}
+
+.hero-button{
     background-color: #4d5ae5;
     color: #ffffff;
 }
 
-.order:hover{
+.hero-button:hover{
     background-color: #404bbf;
 }
 
@@ -113,15 +150,19 @@ a{
 
 
 
-.fourth{
+.third{
     background-color: #f4f4fd;
 }
 
-.staff{
-    background-color: white;
+.third-list-item{
+    background-color: #ffffff;
 }
 
-footer{
+.footer{
     background-color: #2e2f42;
     color: #e7e9fc;
+}
+
+.footer-studio{
+    color: #f4f4fd;
 }
