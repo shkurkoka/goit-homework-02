@@ -55,6 +55,10 @@ a{
     text-decoration: none;
 }
 
+.invis{
+    display: none;
+}
+
 .img{
     width: 360px;
     height: 300px;
@@ -108,7 +112,7 @@ a{
     color: #434455;
 }
 
-.address:active{
+.address-hover:active{
     color: #404BBF;
 }
 
@@ -125,28 +129,9 @@ a{
     color: #ffffff;
 }
 
-.hero-button:hover{
+.hero-button:hover, .hero-button:focus{
     background-color: #404bbf;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -156,6 +141,22 @@ a{
 
 .third-list-item{
     background-color: #ffffff;
+}
+
+
+.filter-btn{
+    color: #4D5AE5;
+    background-color: #F4F4FD;
+}
+
+.filter-btn:hover, .filter-btn:focus {
+    color: #FFFFFF;
+    background-color: #404BBF;
+}
+
+.card-list-item{
+    background-color: #FFFFFF;
+    border: 1px solid #E7E9FC;
 }
 
 .footer{
