@@ -125,8 +125,9 @@ a{
 }
 
 .hero-button{
-    background-color: #4d5ae5;
+    border-radius: 4px;
     color: #ffffff;
+    background-color: #4d5ae5;
 }
 
 .hero-button:hover, .hero-button:focus{
@@ -145,6 +146,8 @@ a{
 
 
 .filter-btn{
+    border: 1px solid #E7E9FC;
+    border-radius: 4px;
     color: #4D5AE5;
     background-color: #F4F4FD;
 }
