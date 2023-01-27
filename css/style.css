@@ -177,9 +177,12 @@ body{
 
 .footer{
     background-color: var(--special-text);
-    color: #e7e9fc;
 }
 
 .footer-studio{
     color: #f4f4fd;
+}
+
+.footer-text{
+    color: #e7e9fc;
 }
