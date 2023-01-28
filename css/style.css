@@ -10,7 +10,7 @@ body{
     color: var(--plain-text);
 }
 
-.nav-list, .addres-list, .first-list, .second-list, .third-list, .filters-list, .card-list{
+.nav-list, .address-list, .first-list, .second-list, .third-list, .filters-list, .card-list{
     list-style: none;
 }
 
